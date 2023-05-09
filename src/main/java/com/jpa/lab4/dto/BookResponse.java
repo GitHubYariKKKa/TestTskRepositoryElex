@@ -6,7 +6,6 @@ import lombok.Data;
 import java.time.LocalDate;
 
 @Data
-//@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class BookResponse {
     private int id;
     private String title;
